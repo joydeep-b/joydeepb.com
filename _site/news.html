@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   ------------------------------------ -->
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>News</title>
 
   <!-- Mobile Specific Metas
   ------------------------------------ -->
@@ -19,11 +19,11 @@
   ------------------------------------ -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+  <link rel="stylesheet" href="/assets/style.css">
 
   <!-- Favicon
   ------------------------------------ -->
-  <link rel="icon" type="image/png" href="{{ "/assets/favicon.png" | relative_url }}">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
 
   <!-- Required for GetSimple Plugins
   ------------------------------------ -->
@@ -39,27 +39,50 @@
       <nav class="twelve columns">
         <hr />
           <ul>
-            {% assign mypages = site.pages | sort: "order" %}
-            {% for navpage in mypages %}
-              {% if navpage.title == page.title %}
-                <li class="current active">
-              {% else %}
+            
+            
+              
                 <li>
-              {% endif %}
-              <a href="{{ navpage.url | absolute_url}}">
-                {{ navpage.title }}
+              
+              <a href="http://localhost:4000/">
+                My page
               </a>
               </li>
-            {% endfor %}
+            
+              
+                <li>
+              
+              <a href="http://localhost:4000/about.html">
+                About this
+              </a>
+              </li>
+            
+              
+                <li class="current active">
+              
+              <a href="http://localhost:4000/news.html">
+                News
+              </a>
+              </li>
+            
           </ul>
         <hr />
       </nav>
     </div>
     <div class="row">
       <section class="twelve columns">
-        <h1>{{ page.title }}</h1>
+        <h1>News</h1>
         <hr>
-        {{ content }}
+        <h2 id="latest-news">Latest News</h2>
+
+<ul class="myposts">
+
+    <li><a href="/2018/07/20/a-post.html">My First Post</a>
+    <span class="postDate">Jul 20, 2018</span>
+    </li>
+
+</ul>
+
       </section>
     </div>
     <hr>
