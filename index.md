@@ -1,9 +1,41 @@
 ---
-title: My page
+title: About Me
 layout: default
 order: 1
 ---
 
 
-Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). Plain text format allows you to focus on your **content**.
+<div class="row">
+<div class="three columns"> <img alt="" src="assets/joydeepb.jpg" /></div>
+<div class="eight columns">
+  <p>Assistant Professor<br />
+    College of Information and Computer Sciences, UMass Amherst<br />
+    joydeepb at cs dot umass dot edu</p>
+</div>
+</div>
+  
+<br />
 
+## Interests
+_Robot Perception, Motion Planning, Control Systems, AI, Deployed Robot Systems_
+
+My ultimate goal is to have self-sufficient autonomous mobile robots working in
+human environments, performing tasks accurately and robustly. In support of this
+goal, I am interested in research in perception, planning, and control applied
+to autonomous mobile robots. My research in perception involves developing
+models and representations for a dynamic world, and algorithms to build and
+perform inference based on such models. My interests in planning include motion
+planning, multi-robot coordination, and task-based planning in domains including
+service mobile robots, and robot soccer.
+
+---
+
+## News
+
+<ul class="myposts">
+{% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title}}</a>
+    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+{% endfor %}
+</ul>
