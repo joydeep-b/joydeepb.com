@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/lazyYT.css" | absolute_url }}">
 
   <!-- Favicon
   ------------------------------------ -->
@@ -66,6 +67,13 @@
   </div><!-- close container -->
   <!-- End Document
   ------------------------------------ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="{{ "/assets/js/lazyYT.js" | absolute_url }}"></script>
+  <script>
+    $( document ).ready(function() {
+        $('.js-lazyYT').lazyYT();
+    });
+  </script>
 </body>
 </html>
 
