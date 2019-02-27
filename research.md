@@ -55,7 +55,7 @@ and localization initialization and location estimates in the custom
 and the maps used for localization  are available for download from
 [here](https://drive.google.com/drive/folders/156FOy0Y-bmk7R_Y3xS8Ubl1C--h3aAWO?usp=sharing).
 
- {% youtube "https://www.youtube.com/watch?v=1ak17mdRg5I" %}
+ {% youtube 1ak17mdRg5I %}
 
 ---
 
@@ -81,7 +81,7 @@ observed using the Kinect sensor. The source code is available on the mercurial
 repository [here].
 
 
-{% youtube "https://www.youtube.com/watch?v=0LbwOnejZpA" %}
+{% youtube 0LbwOnejZpA  %}
 
 ---
 
@@ -98,7 +98,7 @@ ICRA 2012 in the paper titled "Depth Camera Based Indoor Mobile Robot
 Localization and Navigation" [pdf]. The video demonstrates real-time
 localization using the Kinect sensor on CoBot2. Source code is available [here].
 
-{% youtube "https://www.youtube.com/watch?v=CZ4iclHRXX8" %}
+{% youtube CZ4iclHRXX8  %}
 
 
 ---
@@ -114,7 +114,7 @@ display. CoBot 2 autonomously navigated through dense crowds while interacting
 with the visitors. The video below shows CoBot 2 in action during the open
 house.
 
-{% youtube "https://www.youtube.com/watch?v=ONawEFNXZkE" %}
+{% youtube ONawEFNXZkE  %}
 
 ---
 
@@ -129,10 +129,10 @@ execution, and is detailed in the AAMAS 2014 paper titled "Opponent-Driven
 Planning and Execution for Pass, Attack, and Defense in a Multi-Robot Soccer
 Team" [pdf].
 
-{% youtube "https://www.youtube.com/watch?v=HhikJB24m7M" %}
-{% youtube "https://www.youtube.com/watch?v=YIWJbFjSOe8" %}
-{% youtube "https://www.youtube.com/watch?v=Jflfq09d4Ro" %}
-{% youtube "https://www.youtube.com/watch?v=NZI9SHxFgcw" %}
+{% youtube HhikJB24m7M  %}
+{% youtube YIWJbFjSOe8  %}
+{% youtube Jflfq09d4Ro  %}
+{% youtube NZI9SHxFgcw  %}
 
 ---
 
@@ -160,4 +160,4 @@ actuating the wheel axle. The robot is capable of balancing on its wheel edge
 while standing in place. Turns are executed by yawing the wheel while driving
 the robot forward. The video below demonstrates the capabilities of Reactobot.
 
-{% youtube "https://www.youtube.com/watch?v=_YmHJSHldc8" %}
+{% youtube _YmHJSHldc8  %}
