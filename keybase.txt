@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/joydeepb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joydeepb.com
+  * I am joydeepb (https://keybase.io/joydeepb) on keybase.
+  * I have a public key ASCwOFE6Ye2s2bLoQtFkN5FGfzToNLk9REcAR4ONQm69HAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b038513a61edacd9b2e842d1643791467f34e834b93d44470047838d426ebd1c0a",
+      "host": "keybase.io",
+      "kid": "0120b038513a61edacd9b2e842d1643791467f34e834b93d44470047838d426ebd1c0a",
+      "uid": "613656780f948c6fb9c3d620527bba19",
+      "username": "joydeepb"
+    },
+    "merkle_root": {
+      "ctime": 1531423027,
+      "hash": "4e84208e892f67209f763e09cc0ce5ebf29f5947eb8c6f0cf7d5a8477c68775edf090e47f7893f7c2f7d4c2bd2e7b91efaba5f7e37aabe8bbcd8fcdfbdd584ba",
+      "hash_meta": "286e32a2c04ba1e1576649bcdeee02f5f736bac981bb8a46b186f08a88564d44",
+      "seqno": 3255809
+    },
+    "service": {
+      "entropy": "kKcTkFAcENeVlU5wbAwGblbe",
+      "hostname": "joydeepb.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1531423055,
+  "expire_in": 504576000,
+  "prev": "4d8330af419aa03bf70b9b8eda83d4d9a9de9936789d88776b5087ae62efb197",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsDhROmHtrNmy6ELRZDeRRn806DS5PURHAEeDjUJuvRwKp3BheWxvYWTESpcCBcQgTYMwr0GaoDv3C5uO2oPU2anemTZ4nYh3a1CHrmLvsZfEIIGAnpZVX5O+dph+PHk4JNtpj8en3aiwWh9fgCPXO2b4AgHCo3NpZ8RAqaPIgZejsJRaGnzrny9qJe9a5uQyrxF0A4WeIoEzbCeKS82fI56R02xkkV6Oz7LjLYDOsMPPzFhMDM8vHe6UAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFL0zE1uqAcGvV8F7BZaA6VGgA8JjdLFbau4COpNj9Qvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joydeepb
+
+==================================================================
