@@ -35,7 +35,7 @@ service mobile robots, and robot soccer.
 ### Prospective Students
 
 I am always eager to work with self-motivated students from all levels (PhD, MS,
-and Undergraduate) with overlapping interests, especially if interested in
+and undergraduate) with overlapping interests, especially if interested in
 working on actual robots deployed in the real world. For more details, please see the
 [prospective students page.]({{ site.baseurl }}{% link prospective-students.md %})
 
