@@ -32,6 +32,13 @@ perform inference based on such models. My interests in planning include motion
 planning, multi-robot coordination, and task-based planning in domains including
 service mobile robots, and robot soccer.
 
+### Prospective Students
+
+I am always eager to work with self-motivated students from all levels (PhD, MS,
+and Undergraduate) with overlapping interests, especially if interested in
+working on actual robots deployed in the real world. For more details, please see the
+[prospective students page.]({{ site.baseurl }}{% link prospective-students.md %})
+
 ---
 
 ## News
