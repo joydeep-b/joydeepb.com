@@ -40,15 +40,17 @@
           <ul>
             {% assign mypages = site.pages | sort: "order" %}
             {% for navpage in mypages %}
-              {% if navpage.title == page.title %}
-                <li class="current active">
-              {% else %}
-                <li>
-              {% endif %}
-              <a href="{{ navpage.url | absolute_url}}">
-                {{ navpage.title }}
-              </a>
-              </li>
+              {% unless navpage.exclude %}
+                {% if navpage.title == page.title %}
+                  <li class="current active">
+                {% else %}
+                  <li>
+                {% endif %}
+                <a href="{{ navpage.url | absolute_url}}">
+                  {{ navpage.title }}
+                </a>
+                </li>
+              {% endunless %}
             {% endfor %}
           </ul>
         <hr />
