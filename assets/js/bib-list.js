@@ -2553,7 +2553,9 @@ var bibtexify = (function($) {
                     itemStr += '  author = { ';
                     for (var index = 0; index < value.length; index++) {
                         if (index > 0) { itemStr += " and "; }
-                        itemStr += value[index].last;
+                        itemStr += value[index].first + " " +
+                            value[index].von + " " +
+                            value[index].last;
                     }
                     itemStr += ' },\n';
                 } else if (key != 'entryType' && key != 'cite') {
