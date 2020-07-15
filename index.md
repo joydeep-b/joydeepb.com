@@ -8,16 +8,16 @@ order: 1
 <div class="row">
 <div class="three columns"> <img alt="" src="assets/joydeepb.jpg" /></div>
 <div class="eight columns">
-  <p>Assistant Professor<br />
+  <p><b><u>Assistant Professor</u></b><br />
     Computer Science Department, UT Austin <br />
     joydeepb at cs dot utexas dot edu<br />
     <br />
-    Adjunct Assistant Professor<br />
+    <b><u>Adjunct Assistant Professor</u></b><br />
     College of Information and Computer Sciences, UMass Amherst
     </p>
 </div>
 </div>
-  
+
 <br />
 
 ## Interests
