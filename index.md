@@ -39,6 +39,17 @@ and undergraduate) with overlapping interests, especially if interested in
 working on actual robots deployed in the real world. For more details, please see the
 [prospective students page.]({{ site.baseurl }}{% link prospective-students.md %})
 
+### What Have The Robots Been Up To Recently?
+
+<iframe style="width:100%; height:450px;" src="https://www.youtube.com/embed/?listType=playlist&list=PLb0H9V2Anq0LhcnEjzKfROac-TPb-YvOx&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+<p style="color:#808080;">
+ [Use playlist controls to navigate between video clips]
+</p>
+
+
+
 ---
 
 ## News
