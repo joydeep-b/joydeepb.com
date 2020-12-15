@@ -5,7 +5,7 @@ order: 3
 ---
 
 For current research, please see the website for the [Autonomous Mobile Robotics
-Laboratory](https://amrl.cs.utexas.edu) at UMass Amherst. This page lists my
+Laboratory](https://amrl.cs.utexas.edu). This page lists my
 research as a PhD student and earlier, for archival purposes.
 
 ---
