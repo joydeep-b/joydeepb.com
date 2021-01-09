@@ -10,7 +10,10 @@ order: 1
 <div class="eight columns">
   <p><b><u>Assistant Professor</u></b><br />
     Computer Science Department, UT Austin <br />
-    joydeepb at cs dot utexas dot edu<br />
+    Affiliated with <a href="https://robotics.utexas.edu/">Texas Robotics</a>, 
+    <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a>, and <br />
+    <a href="https://bridgingbarriers.utexas.edu/good-systems/">UT Good Systems</a>.<br />
+    <a href="mailto:joydeepb@cs.utexas.edu">joydeepb@cs.utexas.edu</a><br />
     <br />
     <b><u>Adjunct Assistant Professor</u></b><br />
     College of Information and Computer Sciences, UMass Amherst
@@ -31,6 +34,11 @@ models and representations for a dynamic world, and algorithms to build and
 perform inference based on such models. My interests in planning include motion
 planning, multi-robot coordination, and task-based planning in domains including
 service mobile robots, and robot soccer.
+
+
+**I am seeking applicants for a postdoctoral fellow position in the AMRL.**  
+Intersted applicants should see the [postdoctoral fellow advertisement]({{
+site.baseurl }}{% link postdoc-advertisement.md %}).
 
 ### Prospective Students
 
