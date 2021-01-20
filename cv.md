@@ -5,7 +5,7 @@ order: 5
 ---
 
 
-<div id="adobe-dc-view" style="width: 800px; height:1100px;"></div>
+<div id="adobe-dc-view" style="width: 100%; height:1100px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function () {
