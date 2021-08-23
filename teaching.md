@@ -8,6 +8,7 @@ order: 4
 <img src="assets/cars.jpg" alt="F1/10 Autonomous Car" width="800">
 </p>
 [Interactive Particle Filters](//amrl.cs.utexas.edu/interactive-particle-filters/)
+* [Fall 2021: CS 393R Autonomous Robotics](//amrl.cs.utexas.edu/CS393R-F21/)
 * [Spring 2021: CS 378 Autonomous Driving](//amrl.cs.utexas.edu/CS378-F1Tenth-Autonomous-Driving-S21/)
 * [Fall 2020: CS 393R Autonomous Robotics](//amrl.cs.utexas.edu/CS393R-F20/)
 * [Spring 2020: CS 378 Autonomous Driving](//amrl.cs.utexas.edu/CS378-F1Tenth-Autonomous-Driving-S20/)
