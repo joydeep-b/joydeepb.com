@@ -1,2 +1,12 @@
 _site
 .jekyll-cache
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.bcf
+*.synctex.gz
