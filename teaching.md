@@ -8,6 +8,8 @@ order: 4
 <img src="assets/cars.jpg" alt="F1/10 Autonomous Car" width="800">
 </p>
 [Interactive Particle Filters](//amrl.cs.utexas.edu/interactive-particle-filters/)
+* [Spring 2023: CS 395T Planning, Search and Reasoning Under Uncertainty](https://amrl.cs.utexas.edu/CS395T-S23/)
+* [Spring 2023: CS378/ME379M/ME397/ECE394J/ECE379K Connected  Autonomous Electric  Vehicles](assets/cs378sp23_caev.pdf)
 * [Spring 2022: CS 378H Autonomous Driving - Honors](//amrl.cs.utexas.edu/CS378H-S22/)
 * [Fall 2021: CS 393R Autonomous Robotics](//amrl.cs.utexas.edu/CS393R-F21/)
 * [Spring 2021: CS 378 Autonomous Driving](//amrl.cs.utexas.edu/CS378-F1Tenth-Autonomous-Driving-S21/)
