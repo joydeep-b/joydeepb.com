@@ -49,25 +49,6 @@ Please bear in mind that working on robotics research is time-consuming. You
 should expect to devote a minimum of 11 hours per week to research.
 You will have to sign up for a 3-credit independent study with me to work on
 research.
-
-### Undergraduates at Other Universities
-
-I occasionally have funding for exceptional undergraduate students from other
-universities to come work in my lab for a summer. However, such positions are
-rare, and only offered to the most promising students. Successful past summer
-undergraduate students who have worked with me have gone on to publish their
-summer research at top robotics and AI conferences, and subsequently joined PhD programs at
-top CS departments. If you have already worked on some research, have
-outstanding grades in your major, can list two faculty who are willing to
-provide letters of reference for you, and can commit to a 14-week summer research internship,
-please feel free to email me with the
-subject "Prospective Summer Robotics Research Internship", including
-in your email:
-1. Why you wish to work with me,
-1. A transcript of your grades and your CV,
-1. A link to previous coding projects (e.g. your GitHub profile), 
-1. What research you have worked on in the past, and 
-1. A list of at least two faculty references.
    
 Due to the volume of emails I receive in this category, I cannot commit to
 replying to every one, but I do read every email. If you do not hear back from
