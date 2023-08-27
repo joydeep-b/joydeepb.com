@@ -8,15 +8,13 @@ order: 1
 <div class="row">
 <div class="three columns"> <img alt="" src="assets/joydeepb.jpg" /></div>
 <div class="eight columns">
-  <p><b><u>Assistant Professor</u></b><br />
+  <p><b><u>Associate Professor</u></b><br />
     Computer Science Department, UT Austin <br />
     Affiliated with <a href="https://robotics.utexas.edu/">Texas Robotics</a>, 
     <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a>, and <br />
     <a href="https://bridgingbarriers.utexas.edu/good-systems/">UT Good Systems</a>.<br />
     <a href="mailto:joydeepb@cs.utexas.edu">joydeepb@cs.utexas.edu</a><br />
     <br />
-    <b><u>Adjunct Assistant Professor</u></b><br />
-    College of Information and Computer Sciences, UMass Amherst
     </p>
 </div>
 </div>
