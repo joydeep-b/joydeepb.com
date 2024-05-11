@@ -10,9 +10,12 @@ order: 1
 <div class="eight columns">
   <p><b><u>Associate Professor</u></b><br />
     Computer Science Department, UT Austin <br />
-    Affiliated with <a href="https://robotics.utexas.edu/">Texas Robotics</a>, 
+    Director of the <a href="https://amrl.cs.utexas.edu/">Autonomous Mobile Robotics Laboratory</a><br />
+    Affilated with <a href="https://robotics.utexas.edu/">Texas Robotics</a>, 
     <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a>, and <br />
-    <a href="https://bridgingbarriers.utexas.edu/good-systems/">UT Good Systems</a>.<br />
+    <a href="https://bridgingbarriers.utexas.edu/good-systems/">UT Good Systems</a>.<br /> <br />
+    <b><u>Visiting Professor</u></b><br />
+    Isaac Robotics, NVIDIA <br /> <br />
     <a href="mailto:joydeepb@cs.utexas.edu">joydeepb@cs.utexas.edu</a><br />
     <br />
     </p>

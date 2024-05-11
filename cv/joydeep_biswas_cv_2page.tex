@@ -1,0 +1,197 @@
+\documentclass[Times]{article}
+\usepackage{times}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage[normalem]{ulem}
+\usepackage{sectsty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=numeric,sorting=none,defernumbers=true,maxbibnames=99,url=false]{biblatex}
+
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+
+\makeatletter
+
+% Print labelnumber as actual number, plus item total, minus one
+\newrobustcmd{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{bbx@itemtotal}+#1+0\relax}
+
+% Initialize category counters
+\def\bbx@initcategory#1{\csnumgdef{bbx@count@#1}{0}}
+\forlistloop{\bbx@initcategory}{\blx@categories}
+
+% Increment category counters
+\def\bbx@countcategory#1{%
+  \ifentrytype{#1}
+    {\csnumgdef{bbx@count@#1}{\csuse{bbx@count@#1}+1}%
+     \addtocategory{#1}{\thefield{entrykey}}%
+     \listbreak}
+    {}}
+\AtDataInput{\forlistloop{\bbx@countcategory}{\blx@categories}}
+
+% Modify \bibbycategory to set item total
+\patchcmd{\blx@bibcategory}
+  {\blx@key@heading{#1}}
+  {\blx@key@heading{#1}%
+   \csnumdef{blx@labelnumber@\the\c@refsection}{0}%
+   \csnumgdef{bbx@itemtotal}{\csuse{bbx@count@#1}}}
+  {}{}
+
+\makeatother
+
+\DeclareBibliographyCategory{inproceedings}
+\DeclareBibliographyCategory{article}
+\DeclareBibliographyCategory{misc}
+\DeclareBibliographyCategory{thesis}
+
+\defbibheading{bibliography}{\section*{Publications}}
+\defbibheading{article}{\subsection*{Journal Articles}}
+\defbibheading{thesis}{\subsection*{PhD Thesis}}
+\defbibheading{inproceedings}{\subsection*{Conference Papers}}
+\defbibheading{misc}{\subsection*{Other Publications}}
+
+\addbibresource{references.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0pt}
+\sectionfont{\sectionrule{0pt}{0pt}{-1ex}{1pt}}
+\subsectionfont{\underline}
+
+
+\newcommand{\funding}[1]{#1\\}
+\renewcommand{\funding}[1]{\\}
+
+
+\begin{document}
+
+\title{
+\vspace{-3em}
+\textbf{Joydeep Biswas}\\
+\vspace{0.5em}
+\normalsize{
+Department of Computer Science, The University of Texas at Austin, TX 78712, USA.\\
+\href{mailto:joydeepb@cs.utexas.edu}{joydeepb@cs.utexas.edu}, \href{http://www.joydeepb.com}{http://www.joydeepb.com}\vspace{-3em}}
+}
+\date{}
+\maketitle
+
+\section*{Professional Experience}
+\begin{tabular}{ p{2cm} l p{8cm}}
+  2023 - Present & Associate Professor & Computer Science Department,
+  University of Texas at Austin, TX, USA \\
+  2024 - Present & Visiting Professor & NVIDIA \\
+  2017 - 2023 & Technical Advisor &  Consumer Robotics, Amazon Lab 126\\
+  2019 - 2023 & Assistant Professor & Computer Science Department,
+  University of Texas at Austin, TX, USA \\
+  2019 - 2023 & Adjunct Assistant Professor &  College of Information and Computer Sciences, University of Massachusetts Amherst, MA, USA\\
+  2015 - 2019  & Assistant Professor &  College of Information and Computer Sciences, University of Massachusetts Amherst, MA, USA\\
+  2015 & Post-Doctoral Fellow &  Computer Science Department, Carnegie Mellon University, Pittsburgh, PA, USA\\
+  2012 & Research Intern &  Google Research, Mountain View, CA, USA\\
+  2010 & Research Intern &  Intel Research, Pittsburgh, PA, USA\\
+\end{tabular}
+
+\section*{Education}
+\begin{tabular}{ p{1.2cm} l l }
+  2014  & Ph.D. in Robotics  & Carnegie Mellon University \\
+  2010  & M.S. in Robotics  & Carnegie Mellon University \\
+  2008  & B.Tech. in Engineering Physics & Indian Institute of Technology, Bombay \\
+\end{tabular}
+
+\section*{Achievements and Awards}
+\begin{tabular}{ p{1.2cm} l }
+  2024  & Best Paper Award, ACM CHI Conference on Human Factors in Computing Systems  \\
+  2024  & JP Morgan Faculty Research Award \\
+  2022  & 1st Place, Benchmark Autonomous Robot Navigation (BARN) Challenge,
+          ICRA 2022 \\
+  2021  & NSF CAREER Award\\
+  2019  & Student Best Poster Award, Northrop Grumman University Symposium \\
+  2019  & IJCAI Early Career Spotlight \\
+  2019  & Amazon Research Award \\
+  2018  & JP Morgan AI Faculty Research Award \\
+  2018  & Best Demo Award, AAMAS 2018 \\
+  % 2018  & 5th place, RoboCup 2018 Small Size League,
+  %     \emph{UMass MinuteBots}, Faculty Team Leader\\
+  2017  & Lower Bracket 1st place, RoboCup 2017 Small Size League, \\
+      &\emph{UMass MinuteBots}, Faculty Team Leader\\
+  2015  & Siebel Scholar, Class of 2015 \\
+  2015  & 1st place, RoboCup 2015 Small Size League,
+     \emph{CMDragons}, Student Team Leader\\
+  2014  & 2nd place, RoboCup 2014 Small Size League,
+     \emph{CMDragons}, Student Team Leader\\
+  2013  & 2nd place, RoboCup 2013 Small Size League,
+     \emph{CMDragons}, Student Team Leader\\
+  2010  & 2nd place, RoboCup 2010 Small Size League,
+     \emph{CMDragons}, Team Member\\
+\end{tabular}
+
+% \section*{Research Interests}
+
+% {\em
+% Robot Perception, Motion Planning, Control Systems, AI, Deployed Robot Systems
+% }\\
+
+%
+% My ultimate goal is to have self-sufficient autonomous mobile robots working in human environments,
+% performing tasks accurately and robustly. In support of this goal, I am interested in research in
+% perception, planning, and control applied to autonomous mobile robots. My research in perception
+% involves developing models and representations for a dynamic world, and algorithms to build and
+% perform inference based on such models. My interests in planning include motion planning, multi-robot
+% coordination, and task-based planning in domains including service mobile robots, and robot soccer.
+
+%\newpage
+
+
+
+%\pagebreak
+
+
+
+\section*{Professional Service}
+
+\begin{tabular}{ p{2cm} l p{8cm}}
+  2023 - Present & RoboCup Federation Trustee\\
+  2023 - Present & AAAI Executive Council Member \\
+  2023 - Present & Associate Editor, International Journal of Robotics Research (IJRR)\\
+  2022 - Present & Associate Editor, Elsevier Robotics and Autonomous Systems\\
+  2023, 2024 & Robotics Area Chair, International Joint Conference on Artificial Intelligence (IJCAI)\\
+  2033 - 2023 & Diversity and Inclusion Co-Chair, AAAI Conference on Artificial
+  Intelligence (AAAI)\\
+  2022 & Co-Organizer, Texas Regional Robotics Symposium\\
+  2020 - 2021 & RoboCup Symposium Co-Chair\\
+  2019 & Robotics Track Co-Chair, International Conference on Autonomous Agents
+  and\\
+  & Multiagent Systems (AAMAS)\\
+
+\end{tabular}
+
+\section*{Selected Publications}
+Full list of publications available at \href{http://www.joydeepb.com/publications}{http://www.joydeepb.com/publications}
+
+% Insert selected citations here directly.
+\begin{refsection}
+\nocite{basich2023competence}
+\nocite{rabiee2023introspective}
+\nocite{rabiee2022cpip}
+\nocite{rabiee2020ivslam}
+\nocite{zhang2023robust}
+\nocite{xin2023plunder}
+\nocite{wei2022steady}
+\nocite{holtz2021idips}
+\nocite{holtz2020ldips}
+\nocite{holtz2018interactive}
+\printbibliography[heading=none] % This line prints the bibliography immediately
+\end{refsection}
+% Print bibliography
+
+
+\end{document}
+
+
