@@ -8,6 +8,7 @@ order: 4
 <img src="assets/cars.jpg" alt="F1/10 Autonomous Car" width="800">
 </p>
 [Interactive Particle Filters](//amrl.cs.utexas.edu/interactive-particle-filters/)
+* [Fall 2025: CS 304I Essentials of AI for Life and Society (AI Literacy)](https://amrl.cs.utexas.edu/CS304I-F2025/)
 * [Fall 2023: CS 378H Autonomous Driving - Honors](https://amrl.cs.utexas.edu/CS378H-F23/)
 * [Fall 2023: CS 109 Essentials of AI for Life and Society](https://cns.utexas.edu/news/announcements/new-essentials-ai-course-launches-fall)
 * [Fall 2023: CS 388U Planning, Search and Reasoning Under Uncertainty - Online Masters Course](https://learning.edx.org/course/course-v1:UTAustinX+CSMS.TCS.320+2T2023/home)
