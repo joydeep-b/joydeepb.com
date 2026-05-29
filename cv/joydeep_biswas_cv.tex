@@ -16,6 +16,15 @@
 \usepackage{csquotes}
 \usepackage[style=numeric,sorting=ydnt,defernumbers=true,maxbibnames=99]{biblatex}
 
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldset=comment, null]
+      \step[fieldset=note, null]
+    }
+  }
+}
+
 \DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
 
 \makeatletter
