@@ -2539,6 +2539,10 @@ var bibtexify = (function($) {
                 itemStr += ' (<a title="This article online" href="' + entryData.url +
                             '">link<\/a>)';
             }
+            if (entryData.doi && entryData.doi.trim() !== '') {
+                itemStr += ' (<a title="DOI" href="https://doi.org/' +
+                            entryData.doi.trim() + '">doi<\/a>)';
+            }
             return itemStr;
         },
         // adds the bibtex link and the opening div with bibtex content
