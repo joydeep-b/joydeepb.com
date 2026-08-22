@@ -11,11 +11,11 @@ order: 1
   <p><b><u>Associate Professor</u></b><br />
     Computer Science Department, UT Austin <br />
     Director of the <a href="https://amrl.cs.utexas.edu/">Autonomous Mobile Robotics Laboratory</a><br />
-    Affilated with <a href="https://robotics.utexas.edu/">Texas Robotics</a>, 
-    <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a>, and <br />
+    Associate Director of <a href="https://robotics.utexas.edu/">Texas Robotics</a><br />
+    Affiliated with the <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a> and <br />
     <a href="https://bridgingbarriers.utexas.edu/good-systems/">UT Good Systems</a>.<br /> <br />
     <b><u>Visiting Professor</u></b><br />
-    Isaac Robotics, NVIDIA <br /> <br />
+    NVIDIA <br /> <br />
     <a href="mailto:joydeepb@cs.utexas.edu">joydeepb@cs.utexas.edu</a><br />
     <br />
     </p>
@@ -25,16 +25,14 @@ order: 1
 <br />
 
 ## Interests
-_Robot Perception, Motion Planning, Control Systems, AI, Deployed Robot Systems_
+_Robot Perception, Planning, Learning, Control, and Deployed Robot Systems_
 
-My ultimate goal is to have self-sufficient autonomous mobile robots working in
-human environments, performing tasks accurately and robustly. In support of this
-goal, I am interested in research in perception, planning, and control applied
-to autonomous mobile robots. My research in perception involves developing
-models and representations for a dynamic world, and algorithms to build and
-perform inference based on such models. My interests in planning include motion
-planning, multi-robot coordination, and task-based planning in domains including
-service mobile robots, and robot soccer.
+My goal is to enable self-sufficient autonomous robots to operate accurately,
+robustly, and safely in complex real-world environments. My research spans
+perception, planning, learning, and control, with an emphasis on systems that
+adapt to changing environments and recover from failures. Current applications
+include long-term service robotics, off-road and social navigation, assistive
+robots, humanoid robots, and multi-robot systems.
 
 ### Prospective Students
 
@@ -51,17 +49,3 @@ working on actual robots deployed in the real world. For more details, please se
 <p style="color:#808080;">
  [Use playlist controls to navigate between video clips]
 </p>
-
-
-
----
-
-## News
-
-<ul class="myposts">
-{% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>

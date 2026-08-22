@@ -11,18 +11,6 @@ order: 2
 
 <pre id="bibtex" style="display:none;">./references.bib</pre>
 <script type="text/javascript">
- var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = process;
-xhr.open("GET", "./assets/references.bib", true);
-xhr.send();
-
-function process() {
-  if (xhr.readyState == 4) {
-    // console.log(xhr.responseText);
-    // bibtexify(xhr.responseText, "pubTable", {'visualization':false});
-  }
-}
-
 var init = function() {
   bibtexify("./references.bib", "pubTable", {'visualization':false});
 };

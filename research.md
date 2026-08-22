@@ -5,8 +5,9 @@ order: 3
 ---
 
 For current research, please see the website for the [Autonomous Mobile Robotics
-Laboratory](https://amrl.cs.utexas.edu). This page lists my
-research as a PhD student and earlier, for archival purposes.
+Laboratory](https://amrl.cs.utexas.edu). This page lists my research as a PhD
+student and earlier, for archival purposes. Current work is maintained on the
+lab website rather than duplicated here.
 
 ---
 
@@ -38,7 +39,8 @@ environment.
 Over the course of the deployments, the robots have traversed hundreds of
 kilometers, and the sensor logs from the CoBots, invaluable to my research, are
 publicly available here in the hope that they may be of use to other researchers
-as well. [pdf]() [data](https://www.cs.cmu.edu/~coral/cobot/data.html)
+as well. [paper](https://joydeepb.com/Publications/ijrr_longterm_autonomy_cobot.pdf)
+[data](https://www.cs.cmu.edu/~coral/cobot/data.html)
 
 Over the course of regular deployments of the CoBots, we have been logging
 sensor data, as well as the reported location of the CoBots (as computed by the
@@ -64,7 +66,7 @@ The Corrective Gradient Refinement (CGR) algorithm for Monte Carlo Localization
 (MCL) uses the state space gradients of the observation model to improve
 accuracy while maintaining low computational requirements. This work was
 presented at IROS 2011 in the paper titled "Corrective Gradient Refinement for
-Mobile Robot Localization"
+Mobile Robot Localization" [[pdf](https://joydeepb.com/Publications/iros2011_cgr.pdf)].
 
 ---
 
@@ -74,11 +76,12 @@ Fast Sampling Plane Filtering (FSPF) is a RANSAC based algorithm for extracting
 3D points corresponding to planar features, given a depth image. The plane
 filtered points may be used for localization, or to build polygon maps of
 environments. A workshop paper on the topic was presented in the RGB-D 2011
-Workshop [pdf]. A complete paper ("Planar Polygon Extraction and Merging from
-Depth Images") was presented at IROS 2012 [pdf]. The video demonstrates
+Workshop [[pdf](https://joydeepb.com/Publications/biswas-rgbd11-plane-filtering.pdf)].
+A complete paper ("Planar Polygon Extraction and Merging from Depth Images") was
+presented at IROS 2012
+[[pdf](https://joydeepb.com/Publications/iros2012_planes.pdf)]. The video demonstrates
 real-time plane filtering, polygonalization and polygon merging for a scene
-observed using the Kinect sensor. The source code is available on the mercurial
-repository [here].
+observed using the Kinect sensor.
 
 
 {% include youtube.html video_id="0LbwOnejZpA"  %}
@@ -95,8 +98,9 @@ CPU on a single core of the Intel Core i5 540M (2.53GHz) processor. The mean
 localization error of the robot over experiment trials (of length >4km) while
 using the Kinect for localization is <20cm and <0.5°. This work was presented at
 ICRA 2012 in the paper titled "Depth Camera Based Indoor Mobile Robot
-Localization and Navigation" [pdf]. The video demonstrates real-time
-localization using the Kinect sensor on CoBot2. Source code is available [here].
+Localization and Navigation"
+[[pdf](https://joydeepb.com/Publications/icra2012_kinectLocalization.pdf)]. The
+video demonstrates real-time localization using the Kinect sensor on CoBot2.
 
 {% include youtube.html video_id="CZ4iclHRXX8"  %}
 
@@ -108,7 +112,7 @@ localization using the Kinect sensor on CoBot2. Source code is available [here].
 During the summer of 2010, I interned at Intel Research Pittsburgh. Working with
 Brian Coltin, we developed a semi-autonomous telepresence role and a visitor
 tour guide role for CoBot 2. We succesfully demonstrated CoBot 2 during the 2010
-Intel Research Pittsburgh Open house, and over course of the day, escorted
+Intel Research Pittsburgh Open House, and over the course of the day, escorted
 visitors around the labs, introducing them to the various research projects on
 display. CoBot 2 autonomously navigated through dense crowds while interacting
 with the visitors. The video below shows CoBot 2 in action during the open
@@ -124,10 +128,10 @@ I led the CMDragons RoboCup SSL team at CMU for several years, and won the 2015
 RoboCup, and came second in 2010, 2013, and 2014. I worked on several parts of
 the robot soccer problem, including time-optimal interception, motion control,
 attack and passing strategy, and the threat-based defense. Our "Coerce and
-Attack Planner", developed in 2013, was instrumental in succesful freekick
+Attack Planner", developed in 2013, was instrumental in successful free-kick
 execution, and is detailed in the AAMAS 2014 paper titled "Opponent-Driven
 Planning and Execution for Pass, Attack, and Defense in a Multi-Robot Soccer
-Team" [pdf].
+Team" [[pdf](https://joydeepb.com/Publications/aamas2014_cmdragons.pdf)].
 
 {% include youtube.html video_id="HhikJB24m7M"  %}
 {% include youtube.html video_id="YIWJbFjSOe8"  %}
@@ -140,11 +144,11 @@ Team" [pdf].
 
 We developed a WiFi based localization system which localized cobot on a graph
 based map including WiFi data (Means and Standard Deviations) at every vertex of
-the graph. CoBot 1 succesfully localized and navigated autonomously along this
+the graph. CoBot 1 successfully localized and navigated autonomously along this
 graph based map. For a detailed description of the WiFi based localization
 algorithm, please refer to the paper "Wifi localization and navigation for
 autonomous indoor mobile robots", Joydeep Biswas and Manuela Veloso, ICRA 2010,
-available [here].
+available [[here](https://joydeepb.com/Publications/icra2010_wifi.pdf)].
 
 ---
 

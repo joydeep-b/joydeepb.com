@@ -5,17 +5,18 @@ exclude: true
 ---
 
 I am always looking for self-motivated students to work on research with me on a
-variety of topics, including (but not limited to) perception, planning, and
-failure recovery of autonomous mobile robots. Our research is driven primarily
-by the end-goal of having autonomous mobile robots deployed over long
-time-scales spanning years at a time, in challenging real-world human
+variety of topics, including (but not limited to) robot perception, planning,
+learning, and failure recovery. Current projects span long-term service
+robotics, off-road and social navigation, assistive and guide-dog robots,
+humanoid robots, multi-robot systems, and the use of language models for robot
+programming. Our research is driven primarily by the end-goal of having
+autonomous robots deployed over long time-scales in challenging real-world
 environments. I am most interested in _solving problems_, not _promoting
-tools_ - this means building or selecting the best tools for the problem, not the most
-popular tools of the time. Finally, I am interested in applying our research
-to real-world robots, not simulation. My [previous papers]({{ site.baseurl }}{%
-link publications.md %}) are representative of the research I work on, and in
-particular, [here](//joydeepb.com/Publications/ijcai2019_early_career_spotlight.pdf) is a
-summary of much of my research to date.
+tools_—this means building or selecting the best tools for the problem, not the
+most popular tools of the time. Finally, I am interested in applying our
+research to real-world robots, not simulation alone. See the [AMRL
+website](https://amrl.cs.utexas.edu/) for current projects and my [publication
+list]({{ site.baseurl }}{% link publications.md %}) for recent work.
 
 ### Skill Sets
 
