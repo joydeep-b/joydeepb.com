@@ -44,7 +44,7 @@ Postdoctoral researchers will also have opportunities to collaborate with
 faculty and students at all six partner institutions. Researchers will further have the
 opportunity to work with the Center's industry partners, to draw on
 high-performance computing resources at the Texas Advanced Computing Center
-(TACC), and to lead real-world long-term robot deployments in a Center-wide Human Environment with Robots (HERO) Facility Network.
+(TACC), and to lead real-world long-term robot deployments in the HERO Facility Network.
 
 Prospective candidates should have, by the start of the position, a PhD in
 computer science, robotics, engineering, cognitive science, 

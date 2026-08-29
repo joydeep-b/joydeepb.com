@@ -17,12 +17,12 @@ order: 1
     <b><u>Visiting Professor</u></b><br />
     NVIDIA <br /> <br />
     <a href="mailto:joydeepb@cs.utexas.edu">joydeepb@cs.utexas.edu</a><br />
-    <br />
+    <!-- <br /> -->
     </p>
 </div>
 </div>
 
-<br />
+<!-- <br /> -->
 
 ## Interests
 _Robot Perception, Planning, Learning, Control, and Deployed Robot Systems_
