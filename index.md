@@ -10,6 +10,7 @@ order: 1
 <div class="eight columns">
   <p><b><u>Associate Professor</u></b><br />
     Computer Science Department, UT Austin <br />
+    Director of the <a href="https://hrc-stc.org/">Center for Human and Robot Co-Adaptation</a> (an <a href="https://www.nsf.gov/news/nsf-launches-three-new-science-technology-centers-90m">NSF Science and Technology Center</a>, established 2026)<br />
     Director of the <a href="https://amrl.cs.utexas.edu/">Autonomous Mobile Robotics Laboratory</a><br />
     Associate Director of <a href="https://robotics.utexas.edu/">Texas Robotics</a><br />
     Affiliated with the <a href="https://ml.utexas.edu/">UT Machine Learning Laboratory</a> and <br />
