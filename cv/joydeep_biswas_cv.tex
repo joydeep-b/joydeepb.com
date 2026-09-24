@@ -3,8 +3,11 @@
 \usepackage[margin=1.25in]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{xurl}
 \usepackage{verbatim}
 \usepackage{multirow}
+\usepackage{longtable}
+\usepackage{array}
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage[normalem]{ulem}
@@ -71,6 +74,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
 \sectionfont{\sectionrule{0pt}{0pt}{-1ex}{1pt}}
 \subsectionfont{\underline}
 
@@ -98,6 +102,8 @@ Computer Science Department, University of Texas at Austin, TX 78712, USA.\\
 
 Associate Professor, Computer Science Department,
 The University of Texas at Austin\\
+Director and PI, Center for Human and Robot Co-Adaptation ({\small\itshape
+NSF Science and Technology Center, est.\ 2026})\\
 Associate Director, Texas Robotics,
 The University of Texas at Austin\\
 \vspace{-0.5em}\\
@@ -117,22 +123,26 @@ Visiting Professor, NVIDIA
 \end{tabular}
 
 \section*{Achievements and Awards}
-\begin{tabular}{ p{1.2cm} l }
-  2026  & Best Paper Award Finalist, ICRA 2026, \emph{GuideTWSI} \\
+\begin{longtable}{@{}p{1.2cm} >{\raggedright\arraybackslash}p{\dimexpr\textwidth-1.2cm-2\tabcolsep\relax}@{}}
+  2026  & Chief of Naval Research Fellow, Office of Naval Research, inaugural class; one of 12 selected from more than 180 nominations \\
+  2026  & AAAI Senior Member, Class of 2026 \\
+  2026  & Best Paper Award Finalist in Field and Service Robotics, ICRA 2026, \emph{GuideTWSI} \\
   2026  & Best Paper Honourable Mention, HRI 2026, \emph{GuideNav} \\
   2025  & Third Place, RoboCup 2025 Humanoid League (Adult Size), \emph{UT Austin Villa}\\
   2025  & Best Paper Runner-up, RSS 2025 Workshop on Resilient Off-road Autonomous Robotics, \emph{OVerSeeC} \\
+  2025  & Best Paper Award, ICRA 2025 Workshop on Advances in Social Navigation, \emph{HEIGHT} \\
   2024  & Best Paper Award, ACM CHI Conference on Human Factors in Computing Systems, \\
         & \emph{Informed Guide Dog Robot Design}  \\
   2024  & JP Morgan Faculty Research Award \\
+  2023  & Best Paper Award Nominee, AAAI Spring Symposium on HRI in Academia and Industry: Bridging the Gap, \emph{Benchmarking Social Robot Navigation Across Academia and Industry} \\
   2022  & 1st Place, Benchmark Autonomous Robot Navigation (BARN) Challenge,
           ICRA 2022 \\
   2021  & NSF CAREER Award\\
   2019  & Student Best Poster Award, Northrop Grumman University Symposium \\
   2019  & IJCAI Early Career Spotlight \\
-  2019  & Amazon Research Award \\
+  2018  & Amazon Research Award \\
   2018  & JP Morgan AI Faculty Research Award \\
-  2018  & Best Demo Award, AAMAS 2018 \\
+  2018  & Best Interactive Demo Award, AAMAS 2018, \emph{Interactive Robot Transition Repair With SMT: Demonstration} \\
   2018  & 5th place, RoboCup 2018 Small Size League,
       \emph{UMass MinuteBots}, Faculty Team Leader\\
   2017  & Lower Bracket 1st place, RoboCup 2017 Small Size League, \\
@@ -146,7 +156,7 @@ Visiting Professor, NVIDIA
      \emph{CMDragons}, Student Team Leader\\
   2010  & 2nd place, RoboCup 2010 Small Size League,
      \emph{CMDragons}, Team Member\\
-\end{tabular}
+\end{longtable}
 
 % \section*{Research Interests}
 
@@ -165,24 +175,36 @@ Visiting Professor, NVIDIA
 %\newpage
 
 \section*{Employment History}
-\begin{tabular}{ p{2cm} l p{8cm}}
+\begin{longtable}{@{}p{2.3cm} >{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{\dimexpr\textwidth-5.7cm-4\tabcolsep\relax}@{}}
+  2024 - Present & Visiting Professor & NVIDIA \\
   2023 - Present & Associate Professor & Computer Science Department,
   University of Texas at Austin, TX, USA \\
-  2017 - 2023 & Technical Advisor &  Consumer Robotics, Amazon Lab 126\\
+  2019 - 2025 & Adjunct Assistant Professor &  College of Information and Computer Sciences, University of Massachusetts Amherst, MA, USA\\
   2019 - 2023 & Assistant Professor & Computer Science Department,
   University of Texas at Austin, TX, USA \\
-  2019 - 2025 & Adjunct Assistant Professor &  College of Information and Computer Sciences, University of Massachusetts Amherst, MA, USA\\
+  2017 - 2023 & Technical Advisor &  Consumer Robotics, Amazon Lab 126\\
   2015 - 2019  & Assistant Professor &  College of Information and Computer Sciences, University of Massachusetts Amherst, MA, USA\\
   2015 & Post-Doctoral Fellow &  Computer Science Department, Carnegie Mellon University, Pittsburgh, PA, USA\\
   2012 & Summer Intern &  Google Research, Mountain View, CA, USA\\
   2010 & Summer Intern &  Intel Research, Pittsburgh, PA, USA\\
-\end{tabular}
+\end{longtable}
 
 %\pagebreak
 
 \section*{Funding}
+\begingroup
+\interlinepenalty=10000
 
 \subsection*{Federal Funding}
+
+\textbf{NSF Science and Technology Center ``\emph{Center for Human and Robot Co-Adaptation}''}\\
+Role: PI and Center Director.\\
+Award: 2535195.\\
+Period: September 2026 -- August 2031.\\
+Five-year, \$30M NSF Science and Technology Center.\\
+Six-university collaboration: UT Austin (lead), MIT, Yale University,
+Indiana University Bloomington, University of Utah, and Tufts University.
+\par\vspace{2\baselineskip}
 
 \textbf{NIH Award ``\emph{Human-Centered Development of Guide-dog Robots
 }''}\\
@@ -343,13 +365,12 @@ Period: September 2019 -- August 2020.\\
 % \funding{Amount: \$40,000.}
 
 % \clearpage
+\par\endgroup
 \section*{Teaching Experience}
 
 \setlength{\parskip}{1em}
 
 {\bf Instructor, CS 304I, Fall 2025, Fall 2026: The Essentials of AI for Life and Society}\\
-University-wide course, University of Texas at Austin
-
 University-wide course, University of Texas at Austin
 
 {\bf Instructor, CS 393R, Fall 2020, Fall 2021, Spring 2024: Autonomous Robots}\\
@@ -390,6 +411,17 @@ Undergraduate course, University of Massachusetts Amherst
 Graduate Seminar, University of Massachusetts Amherst
 
 \section*{Invited Talks}
+\begingroup
+\interlinepenalty=10000
+
+Robots Without Boundaries: Embracing the Unseen and Tackling Novel Tasks\\
+{\em Next G Alliance Technology Roadmap Working Group, virtual, August 12, 2026}
+
+Habits, Goals, and Surprises: Learning and Reasoning for Open-World Navigation\\
+{\em Keynote talk, RSS Workshop on Open World Navigation in the Foundation Model Era: Robustness and Failure Recovery, Sydney, Australia, July 17, 2026}
+
+Robots Without Boundaries: Embracing the Unseen and Tackling Novel Tasks\\
+{\em Machine Learning, Responsible AI, and Robotics Symposium, UT Austin, March 3, 2026}
 
 Reading the Dirt: Learning What Matters (and What Doesn't) for Off-Road
 Navigation\\
@@ -466,11 +498,11 @@ Deploying Autonomous Service Mobile Robots, And Keeping Them Autonomous
 Anticipating and Avoiding Failures Using Introspective Perception and Physics-Informed Program Synthesis\\
 {\em MIT Embodied Intelligence Seminar}, February 2021
 
+The Quest for ``Always-On'' Autonomous Mobile Robots\\
+{\em IJCAI 2019 Early Career Spotlight Talk}, August 2019
+
 Building Robots For Long-Term Autonomy, And Keeping Them Autonomous\\
 {\em Yale University}, April 2019
-
-The Quest for "Always-On" Autonomous Mobile Robots\\
-{\em IJCAI 2019 Early Career Spotlight Talk}, August 2019
 
 Deploying Autonomous Service Mobile Robots, And Keeping Them Autonomous\\
 {\em ICRA 2018 Workshop: Long-term Autonomy and Deployment of Intelligent Robots
@@ -506,10 +538,7 @@ Vector Map-Based, Non-Markov Localization for Long-Term Deployment of Autonomous
 
 The Quest for Robust, Reliable, Autonomous Mobile Robots.\\
 {\em University of Massachusetts Amherst, School of Computer Science}, March 2015
-
-The Quest for Robust, Reliable, Autonomous Mobile Robots.\\
-{\em University of Massachusetts Amherst, School of Computer Science}, March 2015
-
+\par\endgroup
 
 \section*{Panels}
 
@@ -538,11 +567,11 @@ Autonomy\\
 \subsection*{Outreach Activities}
 \begin{itemize}
 \item Science on Screen Series at Amherst Cinema, Amherst MA, 31 October 2018:
-Presented a introduction to ``Christine'' within the scientific context of
+Presented an introduction to ``Christine'' within the scientific context of
 actual self-driving cars. \emph{The Radical Future of Self-Driving Cars}.
 \item SciTech Cafe, Northampton MA, 23 January 2017: Presented a scientific talk
 to a general public audience. \emph{``Where am I?'' and
-  Other Fundamental Questions Robotcs Think Long and Hard to Answer}
+  Other Fundamental Questions Robots Think Long and Hard to Answer}
 \item HolyokeCodes, Holyoke MA, 8--12 July 2019: Co-Organized with Arjun Guha, a week-long
 robotics workshop for high-school students with state-of-the-art soccer-playing
 robots that we used to compete with at RoboCup. We
@@ -554,13 +583,16 @@ increasingly complex robot behaviors, leading up to a robot soccer tournament.
 \subsection*{Significant Service Roles}
 
 \begin{itemize}
+  \item Executive Councilor, Association for the Advancement of Artificial Intelligence (AAAI): current term through 2027
+  \item Student Chair, Association for the Advancement of Artificial Intelligence (AAAI): current
+  \item Co-Editor-in-Chief, Elsevier Robotics and Autonomous Systems: July 2026 -- present
   \item Local Chair, Conference on Robot Learning (CoRL): 2026
-  \item Associate Program Chair, AAAI Conference on Artificial Intelligence (AAAI): 2026
+  \item Associate Program Chair, AAAI Conference on Artificial Intelligence (AAAI): 2026, 2027
   \item Senior Member Track Co-Chair, AAAI Conference on Artificial Intelligence (AAAI): 2025
   \item Associate Editor, The International Journal of Robotics Research: 2023 -- present
   \item Robotics Area Chair, International Joint Conference on Artificial Intelligence (IJCAI): 2023
   \item Co-Organizer, Texas Regional Robotics Symposium: April 29, 2022
-  \item Associate Editor, Elsevier Robotics and Autonomous Systems: 2019 -- present
+  \item Associate Editor, Elsevier Robotics and Autonomous Systems: 2019 -- June 2026
   \item RoboCup Federation Trustee: 2021 -- Present
   \item Diversity and Inclusion Co-Chair, AAAI Conference on Artificial
   Intelligence (AAAI): 2022, 2023
@@ -580,9 +612,9 @@ Robots and Systems (IROS): 2016
   \item International Joint Conference on Artificial Intelligence (IJCAI): 2022
   \item International Conference on Autonomous Agents and Multiagent Systems
   (AAMAS): 2022
-  \item AAAI Conference on Artificial Intelligence (AAAI): 2020
   \item International Conference on Autonomous Agents and Multiagent Systems
   (AAMAS): 2021
+  \item AAAI Conference on Artificial Intelligence (AAAI): 2020
   \item Autonomous Robots and Multirobot Systems Workshop (ARMS): 2016
 \end{itemize}
 
@@ -659,16 +691,15 @@ NSF Panelist: 2016(x2), 2018, 2019, 2020, 2021, 2022
 
 \subsection*{PhD Supervisor}
 \begin{itemize}
+  \item Taijing Chen, UT Austin. 2024--present
   \item Sarah Etter, UT Austin. 2023--present
   \item Dongmyeong Lee, UT Austin. 2023--present
-  \item Cheng-Chun Hsu, UT Austin. 2023--present
   \item Arthur Zhang, UT Austin. 2022--present
   \item Zichao Hu, UT Austin. 2022--present
   \item Sadanand Modak, UT Austin. 2022--present
-  \item Noah Patton (Co-advised by Isil Dillig), UT Austin. 2022--present
-  \item Eric Hsiung (Co-advised by Swarat Chaudhuri), UT Austin. 2022--present
-  \item Amanda Adkins, UT Austin. 2020--present
+  \item Eric Hsiung, UT Austin. 2022--present
   \item Emily Pruc, UMass Amherst. 2018--2022
+  \item Amanda Adkins, UT Austin. 2020--2026, currently at Amazon \\
   \item Sadegh Rabiee, UT Austin. 2016--2022, currently at Amazon Lab126 \\
   \emph{Introspective Perception for Mobile Robots}
   \item Jarrett Holtz, UT Austin. 2015--2022, currently at Bosch Research \\
@@ -738,5 +769,3 @@ discussion with questions.}, Nils Bore, KTH. Supervisor: John Folkesson
 
 
 \end{document}
-
-
