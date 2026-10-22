@@ -1,0 +1,171 @@
+\documentclass[Times]{article}
+\usepackage{times}
+\usepackage[margin=0.8in,top=0.6in,bottom=0.6in]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\usepackage{array}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage[normalem]{ulem}
+\usepackage{sectsty}
+\usepackage{enumitem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=numeric,sorting=none,maxbibnames=99,url=false,isbn=false,doi=false]{biblatex}
+
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldset=comment, null]
+      \step[fieldset=note, null]
+    }
+  }
+}
+
+\renewcommand*{\bibfont}{\small}
+\setlength{\bibitemsep}{0.15em}
+\addbibresource{references.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\sectionfont{\large\sectionrule{0pt}{0pt}{-1ex}{1pt}}
+\subsectionfont{\normalsize\underline}
+\titlespacing*{\section}{0pt}{0.6em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.3em}{0.1em}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0pt,topsep=0.1em,parsep=0pt}
+
+\newcommand{\course}[3]{\textbf{#1}, #2 \hfill {\small #3}\\}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{center}
+{\Large\textbf{Joydeep Biswas}}\\[0.3em]
+Associate Professor, Department of Computer Science, The University of Texas at Austin, TX 78712, USA\\
+\href{mailto:joydeepb@cs.utexas.edu}{joydeepb@cs.utexas.edu}, \href{https://www.joydeepb.com}{https://www.joydeepb.com}
+\end{center}
+\vspace{-1.5em}
+
+\section*{Appointments and Education}
+\begin{tabular}{@{}p{2.3cm} >{\raggedright\arraybackslash}p{\dimexpr\textwidth-2.3cm-2\tabcolsep\relax}@{}}
+  2023 -- Present & Associate Professor, Computer Science, University of Texas at Austin \\
+  2026 -- Present & Director, \href{http://hrc-stc.org/}{Center for Human and Robot Co-Adaptation} (NSF Science and Technology Center) \\
+  Present & Associate Director, Texas Robotics, University of Texas at Austin \\
+  2024 -- Present & Visiting Professor, NVIDIA \\
+  2019 -- 2023 & Assistant Professor, Computer Science, University of Texas at Austin \\
+  2015 -- 2019 & Assistant Professor, College of Information and Computer Sciences, UMass Amherst \\
+  2014 & Ph.D.\ in Robotics, Carnegie Mellon University \\
+  2008 & B.Tech.\ in Engineering Physics, Indian Institute of Technology, Bombay \\
+\end{tabular}
+
+\section*{Teaching}
+\subsection*{Core Curriculum (University-Wide, Open to All Majors)}
+\course{CS 304I: The Essentials of AI for Life and Society}{UT Austin}{Fall 2025, Fall 2026}
+\course{CS 109: The Essentials of AI for Life and Society}{UT Austin (pilot offering)}{Fall 2023}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Co-designed and launched a full-scale AI literacy course with no prerequisites, accessible to students
+  from every college, covering how AI works and its societal, ethical, and policy implications.
+  Course design and outcomes published at EAAI 2025 and EAAI 2026 (see below).
+\end{itemize}
+
+\subsection*{Undergraduate Courses}
+\course{CS 378H: F1/10 Autonomous Driving -- Honors}{UT Austin}{Spring 2022, Fall 2023}
+\course{CS 378F: F1/10 Autonomous Driving}{UT Austin}{Spring 2020, Spring 2021}
+\course{CS 378/ME 379M/ECE 379K: Connected Autonomous Electric Vehicles}{UT Austin, cross-listed}{Spring 2023}
+\course{COMPSCI 220: Programming Methodology}{UMass Amherst}{Fall 2017, Fall 2018}
+\course{COMPSCI 403: Introduction to Robotics}{UMass Amherst}{Fall 2016, Spring 2018}
+
+\subsection*{Graduate Courses}
+\course{CS 393R: Autonomous Robots}{UT Austin}{Fall 2020, Fall 2021, Spring 2024}
+\course{CS 395T: Planning, Search, and Reasoning Under Uncertainty}{UT Austin}{Spring 2023}
+\course{CS 388U: Planning, Search, and Reasoning Under Uncertainty}{UT Austin Online MS}{Fall 2023}
+\course{COMPSCI 603: Robotics}{UMass Amherst}{Spring 2016, 2017, 2019}
+\course{COMPSCI 691BR: Building a Robot Soccer Team (Seminar)}{UMass Amherst}{Spring 2017}
+
+\section*{Teaching-Related Research}
+\vspace{-0.3em}
+\begin{refsection}
+\nocite{xu2026essentials}
+\nocite{biswas2025essentials}
+\nocite{betz2024f1tenth}
+\nocite{vekhter2023responsible}
+\nocite{spitzer2020jsbots}
+\printbibliography[heading=none]
+\end{refsection}
+\vspace{-0.4em}
+\textbf{Open educational resources:}
+\href{https://amrl.cs.utexas.edu/interactive-particle-filters/}{Interactive Particle Filters} (browser-based
+visualization for teaching robot localization);
+\href{https://github.com/ut-amrl/robo-js}{robo-js} (safe, high-performance robots for introductory
+computing); public course websites and assignments for all UT robotics courses.
+
+\section*{Teaching-Related Service}
+\begin{itemize}
+  \item Co-PI, NSF Research Traineeship (NRT-AI): \emph{Convergent, Responsible, and Ethical Artificial
+  Intelligence Training Experience for Roboticists}, 2021 -- 2026
+  \item Student Chair, Association for the Advancement of Artificial Intelligence (AAAI): current
+  \item Program Committee, AAAI Symposium on Educational Advances in AI and AAAI Undergraduate
+  Consortium: 2021
+  \item UTCS Turing Scholars (Honors) Admissions Committee: 2020 -- 2022
+  \item UMass CICS Honors Program Director; Undergraduate Course Assistant Program Director: 2018 -- 2019
+  \item Co-Organizer, Texas Regional Robotics Symposium: 2022
+  \item Outreach: \emph{HolyokeCodes} week-long robotics workshop for high-school students (2019);
+  public science talks at SciTech Caf\'e (2017) and Amherst Cinema \emph{Science on Screen} (2018);
+  UT Good Systems live autonomous delivery webcast (2020)
+\end{itemize}
+
+\section*{Advising}
+\subsection*{Postdoctoral Scholars}
+Rohan Chandra (2022 -- 2024, now Assistant Professor, University of Virginia);
+Kiarash Rahmani (2022 -- 2024, now Applied AI Scientist, Durable AI);
+Nathan Tsoi (2025 -- present)
+
+\subsection*{PhD Students}
+\textbf{Graduated:}
+Amanda Adkins (2026, now at Amazon);
+Sadegh Rabiee (2022, now at Amazon Lab126);
+Jarrett Holtz (2022, now at Bosch Research)\\
+\textbf{Current:}
+Taijing Chen, Sarah Etter, Dongmyeong Lee, Arthur Zhang, Zichao Hu, Sadanand Modak, Eric Hsiung
+
+\subsection*{Master's Thesis Students}
+Kavan Sikand (UT Austin, 2022); David Balaban (UMass Amherst, 2018)
+
+\subsection*{Undergraduate Honors Thesis Students}
+\begin{itemize}
+  \item \textbf{UT Austin (2021 -- 2022):} Elvin Yang (\textbf{Best Honors Thesis Award}), Rahul Menon,
+  Shakeel Samsudeen, Nathaniel Plaxton, Michael Satanovski
+  \item \textbf{UMass Amherst (2015 -- 2019):} Edward Schneeweiss, Kyle Vedder, George Larionov
+\end{itemize}
+
+\textbf{Committees:} PhD committees: 9 (UT Austin and UMass Amherst); external thesis opponent, KTH Royal Institute of
+Technology; 2 undergraduate honors thesis committees
+
+\section*{Teaching and Mentoring Awards/Honors}
+\begin{tabular}{@{}p{2cm} >{\raggedright\arraybackslash}p{\dimexpr\textwidth-2cm-2\tabcolsep\relax}@{}}
+  2025, 2026 & CRA Outstanding Undergraduate Researcher Award: \textbf{Awardee} (2026) and Honorable Mention (2025), advisee Luisa Mao \\
+  2024 & CRA Outstanding Undergraduate Researcher Award, Honorable Mention (advisee Jimmy Xin) \\
+  2022 & Best Honors Thesis Award, UT Austin Computer Science (advisee Elvin Yang) \\
+  2020 & CRA Outstanding Undergraduate Researcher Award, Honorable Mention (summer research advisee Jenna Hammond, Mount Holyoke College) \\
+  2019 & Student Best Poster Award, Northrop Grumman University Symposium (advised students) \\
+  2015 -- 2018 & RoboCup Small Size League: 1st place 2015 (\emph{CMDragons}, student team leader);
+  Lower Bracket 1st place 2017 (\emph{UMass MinuteBots}, faculty team leader of student team) \\
+\end{tabular}
+
+\subsection*{Selected Research Honors}
+Chief of Naval Research Fellow, inaugural class (2026);
+NSF CAREER Award (2021);
+AAAI Senior Member (2026); IEEE Senior Member (2026);
+Best Paper Award, ACM CHI (2024);
+Best Paper Honourable Mention, HRI (2026);
+Best Paper Award Finalist, ICRA (2026);
+IJCAI Early Career Spotlight (2019);
+Amazon Research Award (2018); JP Morgan Faculty Research Awards (2018, 2024);
+Siebel Scholar (2015)
+
+\end{document}
